@@ -128,12 +128,39 @@ li {
 
 .price {
   height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.cart {
-  color: white;
-  position: relative;
-  top: 16px;
+.cart1 {
+  color: #F8F8FF;
+  border-color: #eac80d;
+}
+
+.cart1:hover {
+  background-color: #eac80d;
+  border-color: black;
+}
+
+.cart2 {
+  color: #F8F8FF;
+  border-color: #1abc9c;
+}
+
+.cart2:hover {
+  background-color: #1abc9c;
+  border-color: black;
+}
+
+.cart3 {
+  color: #F8F8FF;
+  border-color: #5d6a9a;
+}
+
+.cart3:hover {
+  background-color: #5d6a9a;
+  border-color: black;
 }
 
 .login_c {
@@ -172,4 +199,8 @@ li {
   background-color: #1F1B36;
   margin: 0px;
   padding: 0px;
+}
+
+div.content ul {
+  color: #F8F8FF;
 }
