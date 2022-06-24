@@ -17,6 +17,10 @@ body {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5b2072', endColorstr='#251a41', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 a {
@@ -63,6 +67,8 @@ li {
 
 .whole {
   display: inline-block;
+  padding: 0.5em;
+  ;
 }
 
 .type {
