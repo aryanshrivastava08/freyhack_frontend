@@ -24,7 +24,6 @@ a {
   font-family: 'Open Sans';
   color: white;
   text-decoration: none;
-
 }
 
 input:focus, textarea:focus, select:focus {
@@ -36,7 +35,6 @@ input:focus, textarea:focus, select:focus {
 }
 
 sup {
-
   font-size: 40px;
 }
 
@@ -47,8 +45,6 @@ ul {
   color: #9095aa;
   padding: 0px;
   margin: 0px;
-
-
 }
 
 li {
@@ -67,7 +63,6 @@ li {
 
 .whole {
   display: inline-block;
-
 }
 
 .type {
@@ -76,7 +71,6 @@ li {
   background-color: #eac80d;
   height: 62px;
   border-bottom: 3px solid #bfa30c;
-
 }
 
 .type p {
@@ -87,23 +81,17 @@ li {
   color: white;
   text-align: center;
   padding-top: 10px;
-
-
-
 }
 
 .plan {
   width: 300px;
   background-color: #2b2937;
-
   border-radius: 0px 0px 5px 5px;
   font-family: 'Open Sans';
   font-style: condensed;
   font-size: 90px;
   color: white;
   text-align: center;
-
-
 }
 
 .standard {
@@ -119,14 +107,10 @@ li {
 .header {
   border-bottom: 1px solid #494a5a;
   padding-bottom: 39px;
-
-
 }
 
 .header span {
   font-size: 32px;
-
-
 }
 
 .month {
@@ -141,16 +125,10 @@ li {
 }
 
 .cart {
-
   color: white;
   position: relative;
   top: 16px;
-
 }
-
-.bottom {}
-
-.content {}
 
 .login_c {
   width: 500px;
@@ -159,7 +137,6 @@ li {
   margin: 0 auto;
   margin-top: 40px;
   border-radius: 5px;
-
 }
 
 .login_c input {
@@ -169,14 +146,12 @@ li {
   margin-bottom: 20px;
   border-radius: 5px;
   padding-left: 10px;
-
 }
 
 .login {
   background-color: #BC4B1A;
   border-bottom: 3px solid #7C3618;
   width: 100%;
-
 }
 
 .top {
