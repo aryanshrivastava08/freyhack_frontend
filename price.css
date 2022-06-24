@@ -112,11 +112,17 @@ li {
 
 .header {
   border-bottom: 1px solid #494a5a;
-  padding-bottom: 39px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header span {
-  font-size: 32px;
+  position: relative;
+  font-size: 2rem;
+  top: 20;
+  right: 5;
 }
 
 .month {
