@@ -1,92 +1,114 @@
 <html>
-<head>
-	<title>Chose your plan</title>
-	<link rel="stylesheet" type="text/css" href="price.css">
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:Condensed" />
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
 
-	
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script type="text/javascript" src="price.js"></script>
+	<head>
+		<title>Chose your plan</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-</head>
-<body>
-<div id="container">
-	<div class="whole">
-	<div class="type">
-		<p>Simple</p>
-		</div>
-	<div class="plan">
+		<!--Google fonts-->
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:Condensed" />
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
 
-		<div class="header">
-			<span>$</span>29<sup>99</sup>
-			<p class="month">per month</p>
-		</div>
-		<div class="content">
-			<ul>
-				<li>3 days</li>
-				<li>SURFING</li>
-				<li>KAYAKING</li>
-				<li>WATER-PARAGLIDING</li>
-			</ul>
+		<!--Favicon-->
+		<link rel="icon" type="image/x-icon" href="./Resources/pricing-panel-favicon.ico">
 
-		</div>
-		
-		<div class="price">
-      <a href="login.html" class="bottom"><p class="cart">SELECT</p></a>
-		</div>
-	</div>
-</div>
-	<div class="whole">
-		<div class="type standard">
-		<p>Standard</p>
-		</div>
-	<div class="plan">
+		<!--Bootstrap 5-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-		<div class="header">
-			<span>$</span>49<sup>99</sup>
-			<p class="month">per month</p>
-		</div>
-		<div class="content">
-			<ul>
-				<li>6 days</li>
-				<li>Everything in SIMPLE +</li>
-				<li>Beach Tour</li>
-				<li>Fishing Contest</li>
-			</ul>
-		</div>
-		<div class="price">
-			<a href="login.html" class="bottom"><p class="cart">SELECT</p></a>
-		</div>
-	</div>
-</div>
+		<!--Css link-->
+		<link rel="stylesheet" type="text/css" href="price.css">
 
-	<div class="whole ">
-		<div class="type ultimate">
-		<p>Ultimate</p>
-		</div>
-	<div class="plan">
+	</head>
 
-		<div class="header">
-			<span>$</span>79<sup>99</sup>
-			<p class="month">per month</p>
-		</div>
-		<div class="content">
-			<ul>
-				<li>11 days</li>
-				<li>Everything in STANDARD +</li>
-				<li>Complimentry dinner</li>
-				<li>Evening Bar (18+)</li>
-			</ul>
-		</div>
-		<div class="price">
-      <a href="login.html" class="bottom"><p class="cart">SELECT</p<</a>
-		</div>
-	</div>
-</div>
-    
-    
+	<body>
+		<div id="container">
+			<div class="whole">
+				<div class="type">
+					<p>Simple</p>
+				</div>
+				<div class="plan">
+
+					<div class="header">
+						<span>$</span>29<sup>99</sup>
+					</div>
+					<div class="content">
+						<ul>
+							<li>3 days</li>
+							<li>Surfing</li>
+							<li>Kayaking</li>
+							<li>Water Paragliding</li>
+						</ul>
+
+					</div>
+
+					<div class="price">
+						<a href="login.html" class="bottom">
+							<button class="cart1 btn btn-outline-warning btn-lg">SELECT</button>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="whole">
+				<div class="type standard">
+					<p>Standard</p>
+				</div>
+				<div class="plan">
+
+					<div class="header">
+						<span>$</span>49<sup>99</sup>
+					</div>
+					<div class="content">
+						<ul>
+							<li>6 days</li>
+							<li>Everything in SIMPLE +</li>
+							<li>Beach Tour</li>
+							<li>Fishing Contest</li>
+						</ul>
+					</div>
+					<div class="price">
+						<a href="login.html" class="bottom">
+							<button class="cart2 btn btn-outline-warning btn-lg">SELECT</button>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="whole ">
+				<div class="type ultimate">
+					<p>Ultimate</p>
+				</div>
+				<div class="plan">
+
+					<div class="header">
+						<span>$</span>79<sup>99</sup>
+					</div>
+					<div class="content">
+						<ul>
+							<li>11 days</li>
+							<li>Everything in STANDARD +</li>
+							<li>complementary dinner</li>
+							<li>Evening Bar (18+)</li>
+						</ul>
+					</div>
+					<div class="price">
+						<a href="login.html" class="bottom">
+							<button class="cart3 btn btn-outline-warning btn-lg">SELECT</button>
+					</div>
+				</div>
+			</div>
 
 
-</body>
+
+			<script type="text/javascript"
+				src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+			<script type="text/javascript" src="price.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+				integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+				crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+				integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+				crossorigin="anonymous"></script>
+	</body>
+
 </html>
