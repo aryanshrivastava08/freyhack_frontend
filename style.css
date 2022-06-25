@@ -11,6 +11,15 @@
   font-size: 1.10em;
 }
 
+#MainNav .nav-link:hover {
+  color: #3c67e3;
+}
+
+.navbar.scrolled {
+  background: white;
+  transition: background 400ms;
+}
+
 .navbar-brand {
   font-size: 2rem;
 }
