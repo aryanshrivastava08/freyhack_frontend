@@ -7,6 +7,14 @@
   padding: 0;
 }
 
+#MainNav {
+  font-size: 1.10em;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
 .content-asset p {
   margin: 0 auto;
 }
